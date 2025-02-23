@@ -109,6 +109,5 @@ Then use “docker build <docker file location>”
 
 To do this docker image naming we use a command
 
-```docker
+
 docker build -t amar/postgresql: latest
-```
