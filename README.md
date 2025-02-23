@@ -50,15 +50,14 @@ Docker server is nothing but a compute instance (VM, Personal Computer etc.) whi
 
 In docker a “Docker daemon”, also known as "dockerd", is **a background process that runs on a host machine and manages all aspects of Docker containers, including building, running, and distributing them**; essentially acting as the core component responsible for creating and managing Docker images, containers, networks, and storage volumes by listening for API requests from the Docker client and executing them
 
-![Screenshot 2025-02-23 150102.png](attachment:ddce3306-9791-4039-8644-4a1ff9a4aef9:Screenshot_2025-02-23_150102.png)
+![alt text](<Screenshot 2025-02-23 150102.png>)
 
 ## Docker Client(CLI):
 
 To communicate with the docker daemon(docker component) to execute a certain task like running a container, build some images that are all done via the docker client. Now, you’d have probably guessed it, The Docker CLI. Along with Docker CLI, Docker daemon also exposes a REST API which can be used to programmatically access services exposed by the daemon.
 
   
-
-![Screenshot 2025-02-23 151423.png](attachment:aff4a08f-97b2-40cb-ae80-80fd8709a6af:Screenshot_2025-02-23_151423.png)
+![alt text](<Screenshot 2025-02-23 151423.png>)
 
 ## Basics Docker Commands:
 
@@ -97,15 +96,15 @@ In this docker file, we need to give three things to create docker image.
 2. run <install req>
 3. CMD [’ input command’]
 
-![Screenshot 2025-02-23 164159.png](attachment:e4db4d97-394a-4e8c-a475-88c8c2eee8c6:Screenshot_2025-02-23_164159.png)
+![alt text](<Screenshot 2025-02-23 164159.png>)
 
-![Screenshot 2025-02-23 164224.png](attachment:b6d35662-246f-4fae-aad6-b34eb6511987:Screenshot_2025-02-23_164224.png)
+![alt text](<Screenshot 2025-02-23 164224.png>)
 
 Then use “docker build <docker file location>”
 
 ### Tagging the docker image ids:
 
-![Screenshot 2025-02-23 165431.png](attachment:83244e9b-add8-4bc3-b0e9-7b914ae70ffe:Screenshot_2025-02-23_165431.png)
+![alt text](<Screenshot 2025-02-23 165431.png>)
 
 To do this docker image naming we use a command
 
